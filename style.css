@@ -12,9 +12,11 @@ nav .logo{
     width: 64%;
 }
 nav button{
-    margin: 17% 0% 0% 0%;
+    margin: 18% 0%  0% -104%;
     padding: 7% 30%;
     text-align: left;
+    z-index: 2;
+}
 }
 nav h2{
     margin: 25%  0% 0% 60%;
