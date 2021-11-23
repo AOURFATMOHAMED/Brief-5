@@ -1,3 +1,7 @@
+
+body{
+    background-color:#F2F2F6;
+}
 us*{
    
     margin: 0%;
@@ -37,3 +41,21 @@ nav #plus {
  #head-photo{
      width: 100%;
  }    
+
+
+
+ /*-----Contenu grid-------*/
+ .contenu{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     margin: 20% 0% 0% 15%;
+     
+ }
+ .contenu img{
+     max-width: 50%;
+
+ }
+  .contenu h1{
+     text-align: center;
+     margin: 0 50% 10% 0;
+ } 
