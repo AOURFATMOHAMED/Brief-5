@@ -59,3 +59,19 @@ nav #plus {
      text-align: center;
      margin: 0 50% 10% 0;
  } 
+
+ #five-point{
+     text-align: center;
+ }
+ .icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20%;
+    max-width: 80%;
+    margin: 0% 0% 0% 6%;
+    
+}
+.phrases{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
