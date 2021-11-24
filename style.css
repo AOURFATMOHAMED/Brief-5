@@ -143,7 +143,9 @@ color: #FFD007;
 text-shadow: 4px 0px 0px #5751FC;
 
  } 
-
+ 
+ 
+                   /* five-point */
  #five-point{
   font-size: 40px;
   text-align: center;
@@ -214,12 +216,12 @@ text-shadow: 4px 0px 0px #5751FC;
   grid-gap: 20px ;
   ;
 }
-.quad .a{
-padding: 3% 13% 10%;
-margin: 0% 7% 0% 0%;
-}  
+.a p {
+  padding: 3% 7% 3% 9%;
+  margin: 0% 15% 0% 15%;  
+}   
 .quad h1{
-margin: 9% 0% 5% 0%;
+margin: 9% 10% 5% 24%;
 color: rgba(36, 26, 203, 0.56);
 }  
 .contenu-projet .cp-title{
@@ -246,10 +248,10 @@ text-align: left;
 
                 /* contenu-equipe */
 
- .contenu-equipe #principal{
+ .head-equipe #principal{
   width: 100%;
  }    
- .contenu-equipe p{
+ .head-equipe p{
   margin: 8% 4% 0% 4%;
   font-weight: bold;
   font-size: 36px;
@@ -257,4 +259,34 @@ text-align: left;
   text-align: center;
   letter-spacing: 0.05em;
   color: #5751FC;
- }           
+ }     
+ 
+ .contenu-equipe{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 15% 0% 10% 12%;
+  }
+  .contenu-equipe img{
+    width: 60%;
+    height: 65%;
+    margin-bottom: 10%;
+     }
+     
+     .contenu-equipe h3{
+      font-size: 25px;
+      text-align: center;
+      margin-right: 38%;
+      margin-bottom: 8%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #5751FC;
+      
+       }
+       .contenu-equipe h4{
+        color: rgba(87, 81, 252, 0.7);
+        text-align: center;
+        margin-right: 41%;
+        margin-bottom: 8%;
+    
+        text-transform: uppercase;
+       }
