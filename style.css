@@ -184,7 +184,7 @@ text-shadow: 4px 0px 0px #5751FC;
  #truck{
    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-
+                        /* fondateur */
 #fondateur{
   font-size: 40px;
   text-align: center;
@@ -195,7 +195,6 @@ text-shadow: 4px 0px 0px #5751FC;
   margin-bottom: 8%;
   margin-top: 6%; 
 }
-
 
 .raafat img {
   display: block;
@@ -290,3 +289,54 @@ text-align: left;
     
         text-transform: uppercase;
        }
+
+
+                /* contenu-litineraire */
+.contenu-litineraire #child{
+  width: 100%;
+  
+}
+.contenu-litineraire h1{
+  margin: 10% 20% 10% 20%;
+font-weight: bold;
+font-size: 50px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.05em;
+color: rgba(36, 26, 203, 0.56);
+}
+.contenu-litineraire #map-final{
+  display: block;
+  margin:   0%  auto 10%  auto ;
+  max-width: 70%;
+}
+
+
+                    /* cantact */
+ 
+.form input,textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}                
+
+.in{
+  width: 600px;
+  height: 50pX;
+  background: rgba(122, 119, 214, 0.08);
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.sms{
+  background: rgba(122, 119, 214, 0.08);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
