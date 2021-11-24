@@ -7,24 +7,30 @@
     <title >SOLIVANE</title>
     <link href="style.css" rel="stylesheet">
     <link rel="shortcut icon" href="IMG/SOLIVANE.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     
 </head>
 <body>
-                        <!-- navbar -->
-    <nav>  
-                  
-            <img id="logo" src="IMG/SOLIVANE-side.png" >
-    
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn"></label>
+                     <!-------- Navbar-------->
 
-
-           <ul>
-              <li> Projet</li>
-              <li> Equipe</li>
-              <li> Iténairare</li>
-              <li> Contact</li>
+    <div class="logo">
+        <img src="IMG\SOLIVANE-side.png" alt="">
+    </div>                 
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li class="h"><a href="index.html">Le Projet</a></li>
+                <li class="h"><a href="#">L'Équipe</a></li>
+                <li class="h"><a href="index3.html">L'Iténeraire</a></li>
+                <li class="h"><a href="#contact">Contact</a></li>
+ 
             </ul>
+        </nav>
+  
+    </div>
+    <div id="menuBtn">
+        <img src="menu.png"id="menu">
+     </div> 
         
     </nav>  
     <div>
@@ -61,61 +67,34 @@
   
      
             <div class="icons">
-                <div>
-                        <div>
-                        <img src="IMG/medkit.svg">
-                        </div>
-
-                        <div>
+                <div >
+                             <i class="fas fa-medkit"></i>
                             <h2>Médecins offrent leurs soins</h2>
-                         </div>
                 </div>
 
-                <div>
-                        <div>
-                        <img src="IMG/globe-africa.svg" >
-                        </div>
-                        <div>
-                            <img src="IMG/globe-africa.svg" >
-                        </div>
+                <div >
+                        <i class="fas fa-globe-africa"></i>
+                        <h2>A des femmes enceintes isolée partout dans le Maroc</h2>
+    
                 </div>
 
-                <div>
-                        <div>
-                        <img id="truck" src="IMG/truck.svg" >
-                        </div>
-                        <div>
-                            <img src="IMG/globe-africa.svg" >
-                        </div>
+                <div  >
+                         <i class="fas fa-truck fa-flip-horizontal"></i>    
+                        <H2> Depuis un camion aménagé en cabinet médical</H2>
                 </div>
 
-                <div>
-                        <div>
-                        <img src="IMG/coins.svg" >
-                        </div>
-                        <div>
-                            <img src="IMG/globe-africa.svg" >
-                        </div>
+                <div  >
+                        <i class="fas fa-coins"></i>   
+                        <h2>Grâce aux dons du grand public</h2>
                 </div>
 
-                <div>
-                        <div>
-                        <img src="IMG/campground.svg" >
-                        </div>
-                        <div>
-                            <img src="IMG/globe-africa.svg" >
-                        </div>
+                <div >
+                        <i class="fas fa-campground"></i>
+                        <h2>En s’appuyant sur des associations locales</h2>
                 </div>
 
             </div>
 
-            <div class="phrases">
-             
-                
-                <H2> Depuis un camion aménagé en cabinet médical</H2>
-                <h2>Grâce aux dons du grand public</h2>
-                <h2>En s’appuyant sur des associations locales</h2>
-            </div>
        
 
                       <!-- fondateur -->
@@ -223,7 +202,9 @@
                                                      <!-- footer  -->
                    <footer>
                     SOLIVANE© Copyright
-                   </footer>                          
+                   </footer> 
+                   
+    <script src="main.js"></script>             
 </body>
 </html>
 
