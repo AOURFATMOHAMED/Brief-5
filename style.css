@@ -207,7 +207,27 @@ text-shadow: 4px 0px 0px #5751FC;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  padding: 400px;
+  padding: 250px;
+}
+.contenu-projet-img h1{
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 81px;
+  line-height: 120px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #FFD007;
+  
+  text-shadow: 4px 0px 4px #5751FC;
+
+  background: rgba(87, 81, 252, 0.4);
+  border-radius: 32px;
+
+  
+  
+
 }
 .contenu-projet{
  color: #5751FC; 
