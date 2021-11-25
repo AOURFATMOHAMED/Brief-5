@@ -207,9 +207,11 @@ text-shadow: 4px 0px 0px #5751FC;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 200px;
 }
 .contenu-projet-img h1{
+  PADDING: 0% 0% 0% 28%;
+  margin: 0% 40% 0% -50%;
   font-family: Oswald;
   font-style: normal;
   font-weight: 600;
@@ -217,17 +219,10 @@ text-shadow: 4px 0px 0px #5751FC;
   line-height: 120px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  
   color: #FFD007;
-  
-  text-shadow: 4px 0px 4px #5751FC;
-
+  text-shadow: 4px 0px 4px #5751fc;
   background: rgba(87, 81, 252, 0.4);
   border-radius: 32px;
-
-  
-  
-
 }
 .contenu-projet{
  color: #5751FC; 
