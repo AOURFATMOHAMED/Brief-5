@@ -102,22 +102,21 @@ border-radius: 8px;
  }    
                         /* slogan */
 #slogan{
-    text-align: center;
-    color: #5751FC;
+   text-align: center;
+   color: #5751FC;
    margin-top: 60px;
-   margin-left: 10px;
+   margin-left: 10%;
+   margin-right: 10%;
    background: rgba(255, 208, 7, 0.3);
    border: 5px solid #5751FC;
    box-sizing: border-box;
    border-radius: 10px;
 
    font-family: Oswald;
-   font-style: normal;
    font-weight: bold;
-   font-size: 33px;
+   font-size: 30px;
    line-height: 50px;
    text-align: center;
-   letter-spacing: 0.05em;
 }
 
                     /*-----Contenu grid-------*/
@@ -203,8 +202,12 @@ text-shadow: 4px 0px 0px #5751FC;
 }
             /* contenu-projet */
 
-.contenu-projet img{
-  width: 100%;
+.contenu-projet-img{
+  background-image: url("IMG/PRESENTATION-PROJET.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 400px;
 }
 .contenu-projet{
  color: #5751FC; 
@@ -249,6 +252,7 @@ text-align: left;
 
  .head-equipe #principal{
   width: 100%;
+  margin-top: 10%;
  }    
  .head-equipe p{
   margin: 8% 4% 0% 4%;
@@ -277,7 +281,6 @@ text-align: left;
       margin-right: 38%;
       margin-bottom: 8%;
       letter-spacing: 0.05em;
-      text-transform: uppercase;
       color: #5751FC;
       
        }
@@ -286,8 +289,6 @@ text-align: left;
         text-align: center;
         margin-right: 41%;
         margin-bottom: 8%;
-    
-        text-transform: uppercase;
        }
 
 
@@ -298,12 +299,12 @@ text-align: left;
 }
 .contenu-litineraire h1{
   margin: 10% 20% 10% 20%;
-font-weight: bold;
-font-size: 50px;
-line-height: 80px;
-text-align: center;
-letter-spacing: 0.05em;
-color: rgba(36, 26, 203, 0.56);
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: rgba(36, 26, 203, 0.56);
 }
 .contenu-litineraire #map-final{
   display: block;
@@ -312,27 +313,100 @@ color: rgba(36, 26, 203, 0.56);
 }
 
 
-                    /* cantact */
+                                  /* cantact */
  
-.form input,textarea,label{
-  border: 1px solid #000000;
-  width: 1000px;
-  padding: 12px;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}                
+                    
+form img{
+  width: 100%;
 
-.in{
-  background: rgba(122, 119, 214, 0.08);
-  
-}
+}                  
+                    
+.form-label{
+  display: grid;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+}             
 
-.sms{
+.form-label .in{
+  width: 700px;
+  height: 70px;
   background: rgba(122, 119, 214, 0.08);
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 10px;
 }
+
+.form-label textarea{
+  width: 700px;
+  height: 150px;
+  background: rgba(122, 119, 214, 0.08);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.form-label label{
+  font-size: 35px;
+  line-height: 49px;
+  color: #000000;
+  padding: 1% 0 1% 0;
+}
+
+.form-label #btn{
+
+  margin-left: 32%;
+  margin-top: 4%;
+  width: 35%;
+  height: 100pX;
+  font-size: 200%;
+  cursor: pointer;
+  color: #F8F8FF;
+  background: #5751FC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.form-label #btn:hover{
+  box-shadow: 10px 10px 0px #fdd007;
+  TRANSITION: .8S;
+  color: rgb(255 208 7 / 30);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+                  /* sponsor */
+#spn{
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFD007;
+  text-shadow: 4px 0px 0px #5751FC;
+  margin-bottom: 8%;
+  margin-top: 6%; 
+}
+#mds{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: #E6E6E6;
+  
+}
+#mds img{
+  max-width:  15%;
+  padding: 5% 0 5% 0;
+}
+
+                  /* footer */
+
+ footer{
+   background-color: #5751FC;
+   color: #FFD007;
+   font-size: 26px;
+   height: 70px;
+   padding-top: 20px;
+   padding-left: 15px;
+   font-weight: bold;
+   
+  
+ }                 
