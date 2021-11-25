@@ -211,7 +211,7 @@ text-shadow: 4px 0px 0px #5751FC;
 }
 .contenu-projet-img h1{
   PADDING: 0% 0% 0% 28%;
-  margin: 0% 40% 0% -41%;
+  margin: 0% 49% 0% -41%;
   font-family: Oswald;
   font-style: normal;
   font-weight: 600;
@@ -351,12 +351,6 @@ text-align: left;
   background: rgba(87, 81, 252, 0.4);
   border-radius: 32px;
 }
-
-
-.contenu-litineraire #child{
-  width: 100%;
-  
-}
 .contenu-litineraire h1{
   margin: 10% 20% 10% 20%;
   font-weight: bold;
@@ -373,9 +367,30 @@ text-align: left;
 }
 
 
-                                  /* cantact */
+                                  /* contact */
  
-                                     
+ .contact-img{
+ background-image: url("IMG/contact.png");
+ background-size: cover;
+ background-position: top;
+ background-repeat: no-repeat;
+ padding: 200px; 
+}
+.contact-img h1{
+  PADDING: 0% 0% 0% 28%;
+  margin: 0% 69% 0% -41%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 81px;
+  line-height: 120px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFD007;
+  text-shadow: 4px 0px 4px #5751fc;
+  background: rgba(87, 81, 252, 0.4);
+  border-radius: 32px;
+}                                    
                     
 .form-label{
   display: grid;
