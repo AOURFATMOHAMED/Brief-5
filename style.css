@@ -33,6 +33,9 @@ body{
   font-weight: 700;
 
 }
+nav ul{
+  margin-top: 90px;  
+}
 nav ul li{
   list-style:none;
   margin: 50px 20px;
@@ -66,6 +69,10 @@ border-radius: 8px;
   Z-index:3;
   cursor:pointer;
   box-shadow:0px 8px 2px #C9B34D;
+ }
+ #menuBtn:hover{
+  background-color:#C9B34D; 
+  box-shadow:0px 8px 2px #504DC1; 
  }
 #menuBtn img{
   width:20px;
@@ -128,9 +135,13 @@ border-radius: 8px;
  .contenu img{
      width: 80%;
      height: 80%;
-
-     
       }
+  .contenu img:hover{
+    box-shadow: 5px 5px 20px 20px #5751FC;
+    TRANSITION: .8S;
+    cursor: pointer;
+  }
+
   .contenu h1{
 font-size: 35px;
 text-align: center;
@@ -200,6 +211,10 @@ text-shadow: 4px 0px 0px #5751FC;
   margin:   0%  auto 10%  auto ;
   max-width: 70%;
 }
+.raafat img:hover{
+  box-shadow: 10px 10px 40px 40px #fdd007;
+  TRANSITION: .8S;
+}
             /* contenu-projet */
 
 .contenu-projet-img{
@@ -266,7 +281,7 @@ text-align: left;
                 /* contenu-equipe */
   
   .contenu-equipe-img{
-  background-image: url("IMG/PRESENTATION-PROJET.jpg");
+  background-image: url("IMG/l'equipe.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -301,10 +316,10 @@ text-align: left;
  .contenu-equipe-grid{
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: 15% 0% 10% 12%;
+  margin: 15% 0% 10% 8%;
   }
   .contenu-equipe-grid img{
-    width: 60%;
+    width: 75%;
     height: 65%;
     margin-bottom: 10%;
      }
@@ -312,16 +327,19 @@ text-align: left;
      .contenu-equipe-grid h3{
       font-size: 25px;
       text-align: center;
-      margin-right: 38%;
+      margin-right: 35%;
+      margin-left: 10%;
       margin-bottom: 8%;
       letter-spacing: 0.05em;
       color: #5751FC;
       
        }
+  
        .contenu-equipe-grid h4{
         color: rgba(87, 81, 252, 0.7);
         text-align: center;
         margin-right: 41%;
+        margin-left: 15%;
         margin-bottom: 8%;
        }
 
@@ -420,7 +438,7 @@ text-align: left;
 .form-label label{
   font-size: 35px;
   line-height: 49px;
-  color: #000000;
+  color: #504DC1;
   padding: 1% 0 1% 0;
 }
 
