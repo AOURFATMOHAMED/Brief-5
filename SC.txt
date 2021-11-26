@@ -1,3 +1,0 @@
-Solicode colours
-#ffd007
-#504dc1
